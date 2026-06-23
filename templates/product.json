@@ -27,6 +27,14 @@
           "type": "price",
           "settings": {}
         },
+        "material_ErTtUc": {
+          "type": "material",
+          "settings": {}
+        },
+        "color_8EnJ3q": {
+          "type": "color",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -60,6 +68,8 @@
         "vendor",
         "title",
         "price",
+        "material_ErTtUc",
+        "color_8EnJ3q",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
