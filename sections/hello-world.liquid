@@ -1,18 +1,17 @@
 
-{%- for block in section.blocks -%}
+<div style="text-align: {{section.settings.text_aligment}};">
+  {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'title' -%}
-      <h2 class="color">TITLE</h2>
+      <h2 style="background-color: {{block.settings.bg_color}}; color : {{block.settings.font_color}};" >TITLE</h2>
     {%- when 'subtitle' -%}
-      <h5>SUBTITLE</h5>
+      <h5 style="background-color: {{block.settings.bg_color}}; color : {{block.settings.font_color}};">SUBTITLE</h5>
   {%- endcase -%}
 {%- endfor -%}
+</div>
 
-{%- style -%}
-  h2{
-    back-ground: {{section.settings.bg_color}};
-  }
-{%- endstyle -%}
+
+
 
 
 
@@ -22,6 +21,29 @@
 {
   "name": "hello woeld",
   "settings": [
+    {
+      "type": "select",
+      "id": "text_aligment",
+      "label": "Text Aligment",
+      "info": "algin the text in center",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+        
+      ],
+      
+    }
     ],
     "blocks": [
       {
@@ -58,7 +80,7 @@
       "label": "Font color",
       "default": "#ffffff"
     }
-        ],
+        ]
         
       }
     ],

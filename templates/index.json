@@ -125,14 +125,14 @@
         "title_wbzARA": {
           "type": "title",
           "settings": {
-            "bg_color": "#e9e9e9",
-            "font_color": "#ffffff"
+            "bg_color": "#f30606",
+            "font_color": "#5ff209"
           }
         },
         "subtitle_ERQJ6i": {
           "type": "subtitle",
           "settings": {
-            "bg_color": "#e9e9e9",
+            "bg_color": "#220404",
             "font_color": "#ffffff"
           }
         }
