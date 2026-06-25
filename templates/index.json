@@ -118,11 +118,37 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "hello_world_biBaMk": {
+      "type": "hello-world",
+      "blocks": {
+        "title_wbzARA": {
+          "type": "title",
+          "settings": {
+            "bg_color": "#e9e9e9",
+            "font_color": "#ffffff"
+          }
+        },
+        "subtitle_ERQJ6i": {
+          "type": "subtitle",
+          "settings": {
+            "bg_color": "#e9e9e9",
+            "font_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "title_wbzARA",
+        "subtitle_ERQJ6i"
+      ],
+      "name": "hello world",
+      "settings": {}
     }
   },
   "order": [
     "image_banner",
     "rich_text_GUyyBf",
-    "featured_collection"
+    "featured_collection",
+    "hello_world_biBaMk"
   ]
 }

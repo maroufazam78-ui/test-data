@@ -1,0 +1,74 @@
+
+{%- for block in section.blocks -%}
+  {%- case block.type -%}
+    {%- when 'title' -%}
+      <h2 class="color">TITLE</h2>
+    {%- when 'subtitle' -%}
+      <h5>SUBTITLE</h5>
+  {%- endcase -%}
+{%- endfor -%}
+
+{%- style -%}
+  h2{
+    back-ground: {{section.settings.bg_color}};
+  }
+{%- endstyle -%}
+
+
+
+
+
+{% schema %}
+{
+  "name": "hello woeld",
+  "settings": [
+    ],
+    "blocks": [
+      {
+        "name": "Title",
+        "type": "title",
+        "settings": [
+           {
+      "type": "color",
+      "id": "bg_color",
+      "label": "background color",
+      "default": "#e9e9e9"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Font color",
+      "default": "#ffffff"
+    }
+        ]
+      },
+      {
+        "name": "Subtitle",
+        "type": "subtitle",
+        "settings": [
+          {
+      "type": "color",
+      "id": "bg_color",
+      "label": "background color",
+      "default": "#e9e9e9"
+    },
+    {
+      "type": "color",
+      "id": "font_color",
+      "label": "Font color",
+      "default": "#ffffff"
+    }
+        ],
+        
+      }
+    ],
+    "presets": [
+      {
+        "name": "hello world",
+        "settings": {
+          
+        }
+      }
+    ]
+}
+{% endschema %}
