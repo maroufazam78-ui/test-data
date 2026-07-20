@@ -142,7 +142,9 @@
         "subtitle_ERQJ6i"
       ],
       "name": "hello world",
-      "settings": {}
+      "settings": {
+        "text_aligment": "center"
+      }
     }
   },
   "order": [

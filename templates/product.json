@@ -115,11 +115,39 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "hello_world_kw3xFY": {
+      "type": "hello-world",
+      "blocks": {
+        "subtitle_D3APVV": {
+          "type": "subtitle",
+          "settings": {
+            "bg_color": "#F20707",
+            "font_color": "#220404"
+          }
+        },
+        "title_NwtMAq": {
+          "type": "title",
+          "settings": {
+            "bg_color": "#5FF209",
+            "font_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_D3APVV",
+        "title_NwtMAq"
+      ],
+      "name": "hello world",
+      "settings": {
+        "text_aligment": "center"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "17785681049897692a"
+    "17785681049897692a",
+    "hello_world_kw3xFY"
   ]
 }
