@@ -122,14 +122,14 @@
         "subtitle_D3APVV": {
           "type": "subtitle",
           "settings": {
-            "bg_color": "#F20707",
+            "bg_color": "#f20707",
             "font_color": "#220404"
           }
         },
         "title_NwtMAq": {
           "type": "title",
           "settings": {
-            "bg_color": "#5FF209",
+            "bg_color": "#5ff209",
             "font_color": "#ffffff"
           }
         }
@@ -140,7 +140,7 @@
       ],
       "name": "hello world",
       "settings": {
-        "text_aligment": "center"
+        "text_aligment": "left"
       }
     }
   },
